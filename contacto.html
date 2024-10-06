@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto de Bellas Artes de Morón</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div id="page-header" class="header-text">
+      <span id="page-title">
+        <h1>Contacto</h1>
+      </span>
+    </div>
+
+    <div id="main-navbar" class="header-text">
+      <nav aria-label="Enlaces del sitio" class="navbar-nav">
+        <ul class="ul-navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="cursoDeCanto.html">Curso de Canto</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2 class="h2-cursos">Formulario de Contacto</h2>
+      <div class="form-box">
+        <form>
+          <div class="inputs">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+
+          <div class="inputs">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+          </div>
+
+          <div class="inputs">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+          </div>
+
+          <div class="inputs">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="inputs">
+            <div id="Intereses">
+              <fieldset>
+                <legend>Intereses:</legend>
+                <ul>
+                  <li class="li-form">
+                    <input type="radio" id="teatro" name="interes" value="Teatro">
+                    <label for="teatro">Teatro</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="radio" id="artesvisuales" name="interes" value="Artesvisuales">
+                    <label for="artesvisuales">Artesvisuales</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="radio" id="canto" name="interes" value="Canto">
+                    <label for="canto">Canto</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="radio" id="piano" name="interes" value="Piano">
+                    <label for="piano">Piano</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="radio" id="guitarra" name="interes" value="Guitarra">
+                    <label for="guitarra">Guitarra</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="radio" id="danzas" name="interes" value="Danzas">
+                    <label for="danzas">Danzas</label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
+          </div>
+
+          <div class="inputs">
+            <div id="ServiciosInteres">
+              <fieldset>
+                <legend>Servicios de Interés:</legend>
+                <ul>
+                  <li class="li-form">
+                    <input type="checkbox" id="curso1" name="curso" value="Curso 1">
+                    <label for="curso1">Teatro</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="checkbox" id="curso2" name="curso" value="Curso 2">
+                    <label for="curso2">Artesvisuales</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="checkbox" id="curso3" name="curso" value="Curso 3">
+                    <label for="curso3">Canto</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="checkbox" id="curso4" name="curso" value="Curso 4">
+                    <label for="curso4">Piano</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="checkbox" id="curso5" name="curso" value="Curso 5">
+                    <label for="curso5">Guitarra</label>
+                  </li>
+                  <li class="li-form">
+                    <input type="checkbox" id="curso6" name="curso" value="Curso 6">
+                    <label for="curso6">Danzas</label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
+          </div>
+
+          <div class="inputs">
+            <label for="ciudad">Ciudad:</label>
+            <input list="ciudades" id="ciudad" name="ciudad">
+            <datalist id="ciudades">
+              <option value="Morón">
+              <option value="Castelar">
+              <option value="Haedo">
+              <option value="Ituzaingó">
+            </datalist>
+          </div>
+
+          <div class="inputs">
+            <label for="consulta">Consulta:</label>
+            <textarea id="consulta" name="consulta" rows="4" required></textarea>
+          </div>
+
+          <div class="inputs">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <aside>
+      <h3>Información de Contacto</h3>
+      <p>Dirección: Calle Falsa 123</p>
+      <p>Teléfono: 123-456-7890</p>
+      <p>Horario: Lunes a Viernes, 9am - 5pm</p>
+    </aside>
+    <footer>
+        <p>Desarrollado por Agustin Alfonso</p>
+    </footer>
+  </main>
+</body>
+</html>
